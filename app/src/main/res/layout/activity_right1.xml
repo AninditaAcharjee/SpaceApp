@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Right1"
+    android:background="#FFC51C"
+    android:layout_gravity="center">
+    <TextView
+        android:id="@+id/congratulation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:padding="20dp"
+        android:text="Your answer is correct!!!"
+        android:textSize="25sp"
+        />
+    <Button
+        android:id="@+id/congratulationButton1"
+        android:layout_width="match_parent"
+        android:padding="25dp"
+        android:background="#F5D649"
+        android:textSize="16sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/congratulation"
+        android:text="Go to the next quiz"
+        />
+
+
+</RelativeLayout>

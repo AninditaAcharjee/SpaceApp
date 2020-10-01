@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.spaceapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Person4"></activity>
+        <activity android:name=".Person3" />
+        <activity android:name=".Person2" />
+        <activity android:name=".Person1" />
+        <activity android:name=".Right6" />
+        <activity android:name=".Wrong6" />
+        <activity android:name=".SixthQues" />
+        <activity android:name=".SixthQuiz" />
+        <activity android:name=".Right5" />
+        <activity android:name=".Wrong5" />
+        <activity android:name=".FifthQues" />
+        <activity android:name=".FifthQuiz" />
+        <activity android:name=".Right4" />
+        <activity android:name=".Wrong4" />
+        <activity android:name=".FourthQues" />
+        <activity android:name=".FourthQuiz" />
+        <activity android:name=".LetsSee" />
+        <activity android:name=".Document" />
+        <activity android:name=".Conclusion" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".Conclution" />
+        <activity android:name=".Right3" />
+        <activity android:name=".Wrong3" />
+        <activity android:name=".ThirdQues" />
+        <activity android:name=".ThirdQuiz" />
+        <activity android:name=".Wrong2" />
+        <activity android:name=".Right2" />
+        <activity android:name=".SecondQues" />
+        <activity android:name=".SecondQuiz" />
+        <activity android:name=".Right1" />
+        <activity android:name=".Wrong1" />
+        <activity android:name=".FirstQues" />
+        <activity android:name=".FirstQuiz" />
+        <activity android:name=".Earth" />
+        <activity android:name=".PersonalityTest" />
+        <activity android:name=".HomePage" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

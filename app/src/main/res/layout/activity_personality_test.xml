@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC51C">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:text="Answer the following questions for testing your personality"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/personality1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView1"
+            android:layout_marginTop="50dp"
+            android:padding="10dp"
+            android:text="What is the name of the anime shown in the video?"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/group1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/personality1">
+
+            <RadioButton
+                android:id="@+id/choice11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="1. Perfect Blue"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/choice12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="2. Paprika"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/personality2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/group1"
+            android:layout_marginTop="50dp"
+            android:padding="10dp"
+            android:text="What is the name of the anime shown in the video?"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/group2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/personality2">
+
+            <RadioButton
+                android:id="@+id/choice21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="1. Perfect Blue"
+                android:textSize="16sp" />
+
+
+            <RadioButton
+                android:id="@+id/choice22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="2. Paprika"
+                android:textSize="16sp" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/personality3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/group2"
+            android:layout_marginTop="50dp"
+            android:padding="10dp"
+            android:text="What is the name of the anime shown in the video?"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/group3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/personality3">
+
+            <RadioButton
+                android:id="@+id/choice31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="1. Perfect Blue"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/choice32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="2. Paprika"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/personality4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/group3"
+            android:layout_marginTop="50dp"
+            android:padding="10dp"
+            android:text="What is the name of the anime shown in the video?"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/group4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/personality4">
+
+            <RadioButton
+                android:id="@+id/choice41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="1. Perfect Blue"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/choice42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="2. Paprika"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/personality5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/group4"
+            android:layout_marginTop="50dp"
+            android:padding="10dp"
+            android:text="What is the name of the anime shown in the video?"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/group5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/personality5">
+
+            <RadioButton
+                android:id="@+id/choice51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="1. Perfect Blue"
+                android:textSize="16sp" />
+
+
+            <RadioButton
+                android:id="@+id/choice52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="2. Paprika"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/choice53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="1. Perfect Blue"
+                android:textSize="16sp" />
+
+
+            <RadioButton
+                android:id="@+id/choice54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="2. Paprika"
+                android:textSize="16sp" />
+
+
+            <Button
+                android:id="@+id/see_the_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="#F5D649"
+                android:gravity="center"
+                android:text="See the result" />
+        </RadioGroup>
+    </RelativeLayout>
+</ScrollView>

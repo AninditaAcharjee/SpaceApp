@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC51C"
+    tools:context=".LetsSee">
+
+    <ImageView
+        android:id="@+id/nasapic"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/nasa"
+         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nasapic"
+        android:gravity="center"
+        android:text="Let's see"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/go_first_quiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#F5D649"
+        android:text="Start the quiz" />
+</RelativeLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Document"
+    android:background="#FFC51C">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Earth Right Now\nYour Planet Is Changing. We're On It.\n"
+        android:id="@+id/doc">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NASA uses the vantage point of space to increase our understanding of our home planet, improve lives, and safeguard our future.\n"
+        android:layout_below="@id/doc"
+        android:id="@+id/doc1">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We monitor Earth’s vital signs from land, air and space with a fleet of satellites and ambitious airborne and ground-based observation campaigns. NASA develops new ways to observe and study Earth's interconnected natural systems with long-term data records. The agency freely shares this unique knowledge and works with institutions around the world.\n"
+        android:layout_below="@id/doc1"
+        android:id="@+id/doc2">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scientists worldwide use NASA data to tackle some of the biggest questions about how our planet is changing now and how Earth could change in the future. From rising sea levels to the changing availability of freshwater, NASA enables studies that unravel the complexities of our planet from the highest reaches of Earth’s atmosphere to its core.\n"
+        android:id="@+id/doc3"
+        android:layout_below="@id/doc2">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NASA’s Earth science work also makes a difference in people’s lives around the world every day. From farms to our national parks, from today’s response to natural disasters to tomorrow’s air quality, from the Arctic to the Amazon, NASA is working for you 24/7.\n"
+        android:id="@+id/doc4"
+        android:layout_below="@id/doc3">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NASA’s expertise in space and scientific exploration contributes to essential services provided to the American people by other federal agencies, such as weather forecasting and natural resource management.\n"
+        android:id="@+id/doc5"
+        android:layout_below="@id/doc4">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All of this new knowledge about our home planet enables policy makers, government agencies and other stakeholders to make more informed decisions on critical issues that occur all around the world.\n"
+        android:id="@+id/doc6"
+        android:layout_below="@id/doc5">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="National Aeronautics and Space AdministrationPage Last Updated: Aug. 4, 2017Page Editor: Jim WilsonNASA Official: Brian Dunbar\n"
+        android:id="@+id/doc7"
+        android:layout_below="@id/doc6">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/next_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/doc7"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Next page"
+        android:background="#F5D649"
+         />
+    </RelativeLayout>
+</ScrollView>
