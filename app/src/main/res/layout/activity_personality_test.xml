@@ -25,7 +25,7 @@
             android:layout_below="@id/textView1"
             android:layout_marginTop="50dp"
             android:padding="10dp"
-            android:text="What is the name of the anime shown in the video?"
+            android:text="When judging others, you act upon-"
             android:textSize="20sp" />
 
         <RadioGroup
@@ -39,7 +39,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="20dp"
-                android:text="1. Perfect Blue"
+                android:text="Seeking evidence to support claims"
                 android:textSize="16sp" />
 
             <RadioButton
@@ -47,7 +47,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="20dp"
-                android:text="2. Paprika"
+                android:text="Observing whole scenery"
                 android:textSize="16sp" />
         </RadioGroup>
 
@@ -58,7 +58,7 @@
             android:layout_below="@id/group1"
             android:layout_marginTop="50dp"
             android:padding="10dp"
-            android:text="What is the name of the anime shown in the video?"
+            android:text="In society, at a party etc. you usually-"
             android:textSize="20sp" />
 
         <RadioGroup
@@ -72,7 +72,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="20dp"
-                android:text="1. Perfect Blue"
+                android:text="You don’t like socializing"
                 android:textSize="16sp" />
 
 
@@ -81,7 +81,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="20dp"
-                android:text="2. Paprika"
+                android:text="Have fun with many people, including unknown people"
                 android:textSize="16sp" />
 
         </RadioGroup>
@@ -93,7 +93,7 @@
             android:layout_below="@id/group2"
             android:layout_marginTop="50dp"
             android:padding="10dp"
-            android:text="What is the name of the anime shown in the video?"
+            android:text="Which word describe you better? "
             android:textSize="20sp" />
 
         <RadioGroup
@@ -107,7 +107,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="20dp"
-                android:text="1. Perfect Blue"
+                android:text="Funny"
                 android:textSize="16sp" />
 
             <RadioButton
@@ -115,7 +115,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="20dp"
-                android:text="2. Paprika"
+                android:text="Observant"
                 android:textSize="16sp" />
         </RadioGroup>
 
@@ -126,7 +126,7 @@
             android:layout_below="@id/group3"
             android:layout_marginTop="50dp"
             android:padding="10dp"
-            android:text="What is the name of the anime shown in the video?"
+            android:text="You –"
             android:textSize="20sp" />
 
         <RadioGroup
@@ -140,7 +140,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="20dp"
-                android:text="1. Perfect Blue"
+                android:text="seek deeper understanding of the world"
                 android:textSize="16sp" />
 
             <RadioButton
@@ -148,7 +148,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="20dp"
-                android:text="2. Paprika"
+                android:text="Making decisions based on purely on logic"
                 android:textSize="16sp" />
         </RadioGroup>
 
@@ -159,7 +159,7 @@
             android:layout_below="@id/group4"
             android:layout_marginTop="50dp"
             android:padding="10dp"
-            android:text="What is the name of the anime shown in the video?"
+            android:text="In what situation you feel better?"
             android:textSize="20sp" />
 
         <RadioGroup
@@ -173,7 +173,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="20dp"
-                android:text="1. Perfect Blue"
+                android:text="Well-arranged, structured, with a fixed schedule"
                 android:textSize="16sp" />
 
 
@@ -182,7 +182,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="20dp"
-                android:text="2. Paprika"
+                android:text="Alone and with nature"
                 android:textSize="16sp" />
 
             <RadioButton
@@ -190,7 +190,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="20dp"
-                android:text="1. Perfect Blue"
+                android:text="Depends on the work"
                 android:textSize="16sp" />
 
 
@@ -199,7 +199,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="20dp"
-                android:text="2. Paprika"
+                android:text="Musical environment "
                 android:textSize="16sp" />
 
 

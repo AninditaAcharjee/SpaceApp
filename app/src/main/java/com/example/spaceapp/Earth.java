@@ -41,7 +41,7 @@ public class Earth extends AppCompatActivity {
 //            }
 //        });
 
-        Button button =(Button) findViewById(R.id.see_the_doc);
+        Button button =(Button) findViewById(R.id.next_page);
         final Context cont =this;
         button.setOnClickListener(new View.OnClickListener() {
             @Override

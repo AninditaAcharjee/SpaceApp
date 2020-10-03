@@ -15,9 +15,13 @@
     </ImageView>
 
     <Button
-        android:id="@+id/see_the_doc"
+        android:id="@+id/next_page"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:text="See the next" />
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Next page"
+        android:background="#F5D649"
+        />
 </RelativeLayout>

@@ -21,19 +21,19 @@ public class Conclusion extends YouTubeBaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_conclusion);
 
-        youTubePlayerView =findViewById(R.id.player4);
-        youTubePlayerView.initialize(Earth.KEY, new YouTubePlayer.OnInitializedListener() {
-            @Override
-            public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
-                youTubePlayer.setPlayerStyle(YouTubePlayer.PlayerStyle.DEFAULT);
-                youTubePlayer.loadVideo("VQ_TDDNowZc");
-            }
-
-            @Override
-            public void onInitializationFailure(YouTubePlayer.Provider provider, YouTubeInitializationResult youTubeInitializationResult) {
-
-            }
-        });
+//        youTubePlayerView =findViewById(R.id.player4);
+//        youTubePlayerView.initialize(Earth.KEY, new YouTubePlayer.OnInitializedListener() {
+//            @Override
+//            public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
+//                youTubePlayer.setPlayerStyle(YouTubePlayer.PlayerStyle.DEFAULT);
+//                youTubePlayer.loadVideo("VQ_TDDNowZc");
+//            }
+//
+//            @Override
+//            public void onInitializationFailure(YouTubePlayer.Provider provider, YouTubeInitializationResult youTubeInitializationResult) {
+//
+//            }
+//        });
 
         Button firstQuesButton =(Button) findViewById(R.id.go_home);
         final Context cont =this;
