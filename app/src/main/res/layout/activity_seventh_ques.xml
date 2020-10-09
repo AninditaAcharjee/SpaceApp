@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstQues"
+    android:background="#FFC51C">
+
+    <TextView
+        android:id="@+id/ques7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:padding="20dp"
+        android:textSize="30sp"
+        android:text="How many new satellites are set by NASA to study Earth’s most critical changing region? "
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:background="#F5D649"
+        android:textSize="16sp"
+        android:padding="20dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/option71"
+        android:layout_below="@id/ques7"
+        android:text="1. 2 (Astrosat &amp;&amp; Cartosat-2) ">
+
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D2AE0A"
+        android:padding="20dp"
+        android:textSize="16sp"
+        android:id="@+id/option72"
+        android:layout_below="@id/option71"
+        android:text="2. 2 (GRACE – FO &amp;&amp; ICESat-2)">
+
+    </Button>
+
+</RelativeLayout>

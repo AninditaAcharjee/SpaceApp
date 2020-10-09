@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstQues"
+    android:background="#FFC51C">
+
+    <TextView
+        android:id="@+id/ques8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:padding="20dp"
+        android:textSize="30sp"
+        android:text="Did you enjoy the geographical visualization?"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:background="#F5D649"
+        android:textSize="16sp"
+        android:padding="20dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/option81"
+        android:layout_below="@id/ques8"
+        android:text="1. Yes">
+
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D2AE0A"
+        android:padding="20dp"
+        android:textSize="16sp"
+        android:id="@+id/option82"
+        android:layout_below="@id/option81"
+        android:text="2. No">
+
+    </Button>
+
+</RelativeLayout>

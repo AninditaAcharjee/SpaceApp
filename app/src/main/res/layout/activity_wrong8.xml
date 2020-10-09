@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC51C"
+    android:layout_gravity="center"
+    >
+
+    <TextView
+        android:id="@+id/sorryText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:padding="20dp"
+        android:text="Sorry!!! Your answer is wrong"
+        android:textSize="25sp"
+        />
+
+    <Button
+        android:id="@+id/sorryButton8"
+        android:layout_width="match_parent"
+        android:padding="25dp"
+        android:background="#F5D649"
+        android:textSize="16sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sorryText"
+        android:text="Watch the video again"
+        />
+
+</RelativeLayout>
