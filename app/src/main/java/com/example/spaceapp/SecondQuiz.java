@@ -20,12 +20,13 @@ public class SecondQuiz extends YouTubeBaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second_quiz);
+
         youTubePlayerView =findViewById(R.id.player2);
         youTubePlayerView.initialize(Earth.KEY, new YouTubePlayer.OnInitializedListener() {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
                 youTubePlayer.setPlayerStyle(YouTubePlayer.PlayerStyle.DEFAULT);
-                youTubePlayer.loadVideo("cu4ZvCguhaw");
+                youTubePlayer.loadVideo("H1KWtG66lEQ");
             }
 
             @Override

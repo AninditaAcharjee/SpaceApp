@@ -13,7 +13,7 @@
         android:layout_marginTop="100dp"
         android:padding="20dp"
         android:textSize="30sp"
-        android:text="Atmospheric chemistry is so complicated and it changes rapidly. How can we keep up observations? "
+        android:text="Did you enjoy images and visualizations of earth ? "
         />
     <Button
         android:layout_width="match_parent"
@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/option41"
         android:layout_below="@id/ques4"
-        android:text="1. Using Telescope">
+        android:text="1. Yes">
 
     </Button>
     <Button
@@ -34,7 +34,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/option42"
         android:layout_below="@id/option41"
-        android:text="2. By merging models and satellite data">
+        android:text="2. No">
 
     </Button>
 

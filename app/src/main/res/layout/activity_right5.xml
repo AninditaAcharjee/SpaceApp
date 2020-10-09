@@ -23,7 +23,7 @@
         android:textSize="16sp"
         android:layout_height="wrap_content"
         android:layout_below="@id/congratulation"
-        android:text="Go to the conclusion"
+        android:text="Go to the next quiz"
         />
 
 

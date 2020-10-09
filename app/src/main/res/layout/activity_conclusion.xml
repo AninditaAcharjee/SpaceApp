@@ -26,7 +26,7 @@
         android:id="@+id/text"
         android:layout_below="@id/text1"
         android:padding="30dp"
-        android:text="This videos are taken from NASA"
+        android:text="This videos are taken from NASA and other agencies"
         android:textSize="20sp" />
 
 
@@ -36,7 +36,7 @@
         android:padding="20dp"
             android:layout_below="@id/text"
             android:id="@+id/text2"
-        android:text="NASA Technology Improves Life on Earth --- https://www.youtube.com/watch?v=3rH3KAcYgBs&amp;ab_channel=NASA"
+        android:text="Intro --- https://www.youtube.com/watch?v=3rH3KAcYgBs&amp;ab_channel=NASA"
         android:textSize="20sp" />
 
     <TextView
@@ -45,8 +45,10 @@
         android:layout_below="@id/text2"
         android:id="@+id/text3"
         android:padding="20dp"
-        android:text="NASA Satellites Picture Earth --- https://www.youtube.com/watch?v=cu4ZvCguhaw&amp;list=PLrB0YjHguUtJqXrR1Q_4geIqbIjaBJ53H&amp;index=11&amp;ab_channel=NASAVideo"
+        android:text="https://www.youtube.com/watch?v=H1KWtG66lEQ&amp;ab_channel=JAXA%7C%E5%AE%87%E5%AE%99%E8%88%AA%E7%A9%BA%E7%A0%94%E7%A9%B6%E9%96%8B%E7%99%BA%E6%A9%9F%E6%A7%8B"
         android:textSize="20sp" />
+
+
 
     <TextView
         android:layout_width="match_parent"
@@ -54,7 +56,7 @@
         android:layout_below="@id/text3"
         android:id="@+id/text4"
         android:padding="20dp"
-        android:text="Using NASA Data to Monitor Drought and Food Insecurity --- https://www.youtube.com/watch?v=9nLAyg4RQTo&amp;list=PLrB0YjHguUtJqXrR1Q_4geIqbIjaBJ53H&amp;index=18&amp;ab_channel=NASAClimateChange"
+        android:text="Benefit for EARTH--- https://www.youtube.com/watch?v=md_GqmBP3Uo&amp;ab_channel=EuropeanSpaceAgency%2CESA"
         android:textSize="20sp" />
 
     <TextView
@@ -63,7 +65,7 @@
         android:padding="20dp"
         android:layout_below="@id/text4"
         android:id="@+id/text5"
-        android:text="NASA science can reveal a more complete picture of atmospheric chemistry --- https://www.youtube.com/watch?v=JQv2B0IwCQ0&amp;feature=youtu.be"
+        android:text="https://www.youtube.com/watch?v=cu4ZvCguhaw&amp;list=PLrB0YjHguUtJqXrR1Q_4geIqbIjaBJ53H&amp;index=11&amp;ab_channel=NASAVideo"
         android:textSize="20sp" />
 
     <TextView
@@ -72,19 +74,66 @@
         android:padding="20dp"
         android:layout_below="@id/text5"
         android:id="@+id/text6"
-        android:text="Two new satellites set to study one of Earth's most critically changing regions --- https://www.youtube.com/watch?v=NIG5ZQT8IAY&amp;ab_channel=NASAClimateChange"
+        android:text="Air--- https://www.youtube.com/watch?v=JQv2B0IwCQ0&amp;feature=youtu.be"
         android:textSize="20sp" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_below="@id/text6"
+        android:id="@+id/text7"
+        android:text="https://www.youtube.com/watch?v=wyuXc1Se_8g&amp;feature=emb_logo"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_below="@id/text7"
+        android:id="@+id/text8"
+        android:text="Water, Oceans And Ice-- https://www.youtube.com/watch?v=NIG5ZQT8IAY&amp;ab_channel=NASAClimateChange"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_below="@id/text8"
+        android:id="@+id/text9"
+        android:text="https://www.youtube.com/watch?v=0hWhtdjz3Sw&amp;feature=emb_logo"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_below="@id/text9"
+        android:id="@+id/text10"
+        android:text="Climate--- https://www.youtube.com/watch?v=9nLAyg4RQTo&amp;list=PLrB0YjHguUtJqXrR1Q_4geIqbIjaBJ53H&amp;index=18&amp;ab_channel=NASAClimateChange"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_below="@id/text10"
+        android:id="@+id/text11"
+        android:text="https://www.youtube.com/watch?v=vhuYueRpgwg&amp;feature=emb_logo"
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/go_home"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/text6"
+        android:layout_below="@id/text11"
         android:background="#F5D649"
         android:padding="25dp"
         android:text="Go to Home"
         android:textSize="16sp" />
+
+
+
 </RelativeLayout>
 
 </ScrollView>

@@ -13,7 +13,7 @@
         android:layout_marginTop="100dp"
         android:padding="20dp"
         android:textSize="30sp"
-        android:text="How images and visualizations of earth from SPACE help us?"
+        android:text=" Did you enjoy the video?"
         />
     <Button
         android:layout_width="match_parent"
@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/option21"
         android:layout_below="@id/ques2"
-        android:text="1. To better understand our planet">
+        android:text="1. Yes">
 
     </Button>
     <Button
@@ -34,7 +34,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/option22"
         android:layout_below="@id/option21"
-        android:text="2. To see beautiful scenario clearly">
+        android:text="2. No">
 
     </Button>
 

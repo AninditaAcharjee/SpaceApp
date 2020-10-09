@@ -19,7 +19,7 @@
             android:layout_marginTop="10dp"
             android:padding="10dp"
             android:layout_centerHorizontal="true"
-            android:text="This is fourth quiz video"
+            android:text="This is quiz video"
             android:textSize="18sp" />
         <TextView
             android:layout_width="wrap_content"
@@ -27,7 +27,7 @@
             android:layout_below="@id/textView"
             android:textSize="20sp"
             android:layout_marginStart="15dp"
-            android:text="NASA science can reveal a more complete picture of atmospheric chemistry"
+            android:text="Benefit for EARTH"
             android:layout_centerHorizontal="true"
             android:fontFamily="sans-serif-black"
             android:layout_marginBottom="15dp">
@@ -59,7 +59,7 @@
             android:textSize="16sp"
             android:layout_height="wrap_content"
             android:id="@+id/go_fourth_ques"
-            android:text="Go to Fourth Question"
+            android:text="Go to the Question"
             />
     </LinearLayout>
 </RelativeLayout>

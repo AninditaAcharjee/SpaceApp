@@ -20,7 +20,7 @@ public class FourthQues extends AppCompatActivity {
         wrong1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent1 = new Intent(cont1, Wrong4.class);
+                Intent intent1 = new Intent(cont1, Right4.class);
                 startActivity(intent1);
             }
         });

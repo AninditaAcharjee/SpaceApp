@@ -20,7 +20,7 @@ public class Right5 extends AppCompatActivity {
         right.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(cont, Conclusion.class);
+                Intent intent = new Intent(cont, SixthQuiz.class);
                 startActivity(intent);
             }
         });

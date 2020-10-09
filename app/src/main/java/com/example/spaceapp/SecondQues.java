@@ -30,7 +30,7 @@ public class SecondQues extends AppCompatActivity {
         wrong2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent2 = new Intent(cont2, Wrong2.class);
+                Intent intent2 = new Intent(cont2, Right2.class);
                 startActivity(intent2);
             }
         });

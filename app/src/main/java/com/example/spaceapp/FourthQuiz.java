@@ -26,7 +26,7 @@ public class FourthQuiz extends YouTubeBaseActivity {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
                 youTubePlayer.setPlayerStyle(YouTubePlayer.PlayerStyle.DEFAULT);
-                youTubePlayer.loadVideo("JQv2B0IwCQ0");
+                youTubePlayer.loadVideo("cu4ZvCguhaw");
             }
 
             @Override

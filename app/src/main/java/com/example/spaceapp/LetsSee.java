@@ -20,7 +20,7 @@ public class LetsSee extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(cont, FirstQuiz.class);
+                Intent intent = new Intent(cont, Category.class);
                 startActivity(intent);
             }
         });
